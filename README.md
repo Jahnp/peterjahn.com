@@ -1,1 +1,1 @@
-Code my personal website, https://peterjahn.com.
+Code for my personal website, https://peterjahn.com.
