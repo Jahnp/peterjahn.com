@@ -23,16 +23,10 @@
 
 
 .App-title .secretEmoji {
-  border-radius: 50%;
-  background-color: #fff;
   width: 5rem;
   height: 5rem;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
   font-size: 3rem;
   transform: rotate(180deg);
-  position: absolute;
   left: 0;
   z-index: -1;
   line-height: normal
@@ -53,7 +47,8 @@ p {
   font-weight: 500;
 }
 
-a {
+a:link,
+a:visited {
   color: #fff;
   position: relative;
   text-decoration: none;
@@ -82,31 +77,59 @@ a:hover::after {
 .interests {
   list-style: none;
   padding: 0;
-  margin-left: -20px;
+  margin-left: -40px;
 }
 
 .interest {
-  font-size: 1rem;
-  padding: 10px 18px 6px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-bottom: 20px;
   line-height: 1;
+  position: relative;
+}
+
+.interest .text {
+  font-size: 1rem;
+  padding: 10px 10px 6px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #000;
   background-color: #fff;
-  display: inline-block;
-  margin-left: 20px;
-  margin-bottom: 20px;
   font-weight: 900;
+  display: inline-block;
+  position: relative;
+  height: 32px;
 }
 
 .interest .secretEmoji {
-  display: none;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  color: inherit;
+  line-height: 37px;
+  font-size: 1rem;
+  /* transform: scale(.5) rotate(45deg); */
+  border-radius: 0;
+  z-index: -1;
+}
+
+.interest:hover .text {
+  padding-left: 0;
+  margin-left: 10px;
 }
 
 .interest:hover .secretEmoji {
   display: inline-block;
+  margin-left: -22px;
+  /* transform: scale(1) rotate(0deg); */
 }
 
 .secretEmoji {
   transition: all 150ms ease-in-out;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
 }

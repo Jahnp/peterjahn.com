@@ -38,7 +38,7 @@ class App extends React.Component {
             <span className="secretEmoji">🙂</span><span className="text">People, in general</span>
           </li>
           <li className="interest">
-            <span className="secretEmoji">✒</span><span className="text">Calligraphy</span>
+            <span className="secretEmoji">✍</span><span className="text">Calligraphy</span>
           </li>
           <li className="interest">
             <span className="secretEmoji">🎸</span><span className="text">Fingerstyle guitar</span>
@@ -47,19 +47,22 @@ class App extends React.Component {
             <span className="secretEmoji">🍷</span><span className="text">Red wine</span>
           </li>
           <li className="interest">
-            <span className="secretEmoji">🏔</span><span className="text">Hiking</span>
+            <span className="secretEmoji">🗻</span><span className="text">Hiking</span>
           </li>
           <li className="interest">
             <span className="secretEmoji">🍠</span><span className="text">Root vegetables</span>
           </li>
           <li className="interest">
-            <span className="secretEmoji">🏃‍♂️</span><span className="text">Running</span>
+            <span className="secretEmoji">👟️</span><span className="text">Running</span>
           </li>
           <li className="interest">
             <span className="secretEmoji">🤯</span><span className="text">Emojis</span>
           </li>
           <li className="interest">
             <span className="secretEmoji">📖</span><span className="text">Book typography</span>
+          </li>
+          <li className="interest">
+            <span className="secretEmoji">🐶</span><span className="text">Doggies</span>
           </li>
         </ul>
 
