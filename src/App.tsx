@@ -22,7 +22,7 @@ class App extends React.Component {
           My team brings together design &amp; code to make engaging and polished experiences for <a href="https://onedrive.live.com/about
 ">OneDrive</a>, <a href="https://sharepoint.com
 ">SharePoint</a>, and <a href="https://uifabric.io
-">Microsoft UI Fabric</a>.
+">Microsoft UI Fabric.</a>
         </p>
 
         <p>
@@ -34,34 +34,34 @@ class App extends React.Component {
         </p>
 
         <ul className="interests">
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🙂</span><span className="text">People, in general</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">✍</span><span className="text">Calligraphy</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🎸</span><span className="text">Fingerstyle guitar</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🍷</span><span className="text">Red wine</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🗻</span><span className="text">Hiking</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🍠</span><span className="text">Root vegetables</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">👟️</span><span className="text">Running</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🤯</span><span className="text">Emojis</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">📖</span><span className="text">Book typography</span>
           </li>
-          <li className="interest">
+          <li className="interest" tabIndex={0}>
             <span className="secretEmoji">🐶</span><span className="text">Doggies</span>
           </li>
         </ul>

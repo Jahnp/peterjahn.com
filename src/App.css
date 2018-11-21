@@ -52,26 +52,12 @@ a:visited {
   color: #fff;
   position: relative;
   text-decoration: none;
-}
-
-a::after {
-  content: "";
-  border-top: 2px solid #fff;
-  height: 0px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  transition: all 50ms ease-in-out;
+  border-bottom: 2px solid #fff;
+  text-shadow: 2px 2px #00ace2;
 }
 
 a:hover {
   opacity: .85;
-}
-
-a:hover::after {
-  left: .25rem;
-  right: .25rem;
 }
 
 .interests {
@@ -93,12 +79,14 @@ a:hover::after {
   padding: 10px 10px 6px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #000;
+  color: #007fa7;
   background-color: #fff;
   font-weight: 900;
   display: inline-block;
   position: relative;
   height: 32px;
+  box-shadow: 2px 2px #00ace2;
+  border: 1px solid transparent;
 }
 
 .interest .secretEmoji {
@@ -108,20 +96,36 @@ a:hover::after {
   color: inherit;
   line-height: 37px;
   font-size: 1rem;
-  /* transform: scale(.5) rotate(45deg); */
   border-radius: 0;
+  border: 1px solid transparent;
   z-index: -1;
 }
 
-.interest:hover .text {
+.interest:focus {
+  outline: 0;
+}
+
+.interest:hover .text,
+.interest:focus .text {
   padding-left: 0;
   margin-left: 10px;
 }
 
-.interest:hover .secretEmoji {
+.interest:focus .secretEmoji {
+  border: 1px solid black;
+  border-right-color: transparent;
+}
+
+.interest:focus .text {
+  border: 1px solid black;
+  border-left-color: transparent;
+}
+
+.interest:hover .secretEmoji,
+.interest:focus .secretEmoji {
   display: inline-block;
   margin-left: -22px;
-  /* transform: scale(1) rotate(0deg); */
+  box-shadow: 2px 2px #00ace2;
 }
 
 .secretEmoji {
