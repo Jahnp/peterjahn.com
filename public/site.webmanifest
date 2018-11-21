@@ -1,0 +1,19 @@
+{
+    "name": "PeterJahn.com",
+    "short_name": "PeterJahn.com",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=XBJvbryalw",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png?v=XBJvbryalw",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#00c2ff",
+    "background_color": "#00c2ff",
+    "display": "standalone"
+}
